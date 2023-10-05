@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bash
+
+mkdir -p /config/.config/openbox
+
+if [[ ! -d /config/.config/OpenRGB/ ]]; then
+    cp -r /defaults/OpenRGB /config/.config
+fi
+
+cp -n /defaults/rc.xml /config/.config/openbox

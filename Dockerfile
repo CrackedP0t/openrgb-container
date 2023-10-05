@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:fedora37
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:fedora38
 
 LABEL org.opencontainers.image.title="OpenRGB"
 LABEL org.opencontainers.image.author="CrackedP0t"

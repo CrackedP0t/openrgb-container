@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.version="0.9-1"
 
 COPY /root /
 
-RUN dnf install openrgb i2c-tools bsdtar -y
+RUN dnf install openrgb i2c-tools -y
 
 ADD https://openrgb.org/releases/plugins/effects/release_0.9/OpenRGBEffectsPlugin_0.9_Bookworm_64_f1411e1.so /defaults/OpenRGB/plugins/
 ADD https://openrgb.org/releases/plugins/visualmap/release_0.9/OpenRGBVisualMapPlugin_0.9_Bookworm_64_bbf30c4.so /defaults/OpenRGB/plugins/
